@@ -1,0 +1,6 @@
+server.port = 56001
+spring.application.name=discoveryservice
+eureka.client.registerWithEureka=false    disable as client
+eureka.client.fetchRegistry=false		  disable fetch registery	
+eureka.client.serviceUrl.defaultZone=http://localhost:56001/eureka
+eureka.instance.prefer-ip-address=ress = true

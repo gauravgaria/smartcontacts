@@ -1,0 +1,6 @@
+server.port=0
+spring.application.name=user-ws
+eureka.client.serviceUrl.defaultZone=http://localhost:56001/eureka   
+above eureka clients communicate with eureka server
+spring.devtools.restart.enabled=true
+restart when changes are made to service

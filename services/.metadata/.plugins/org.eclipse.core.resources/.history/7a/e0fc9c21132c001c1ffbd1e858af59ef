@@ -1,0 +1,5 @@
+package com.intellibyte.smartcontacts.account.ui.controllers;
+
+public class AccountController {
+
+}
