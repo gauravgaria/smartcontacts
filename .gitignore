@@ -1,8 +1,0 @@
-Services/microservices/products/products-ws.log.*
-Services/microservices/coronalogger/coronalogger-ws.log.*
-Services/microservices/apigateway/zuul-api-gateway.log.*
-Services/microservices/discoveryservice/discoveryservice.log.*
-Services/microservices/authentication/authentication-ws.log.*
-Services/microservices/apigateway/zuul-api-gateway.log.*
-Services/microservices/apigateway/zuul-api-gateway.log
-Services/microservices/discoveryservice/discoveryservice.log
