@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=E\:\\sping-projects\\smartcontacts\\.git;
-GitRepositoriesView.GitDirectories.relative=E\:\\sping-projects\\smartcontacts\\.git;
+GitRepositoriesView.GitDirectories=E\:\\spring-projects\\smartcontacts\\.git;E\:\\sping-projects\\smartcontacts\\.git;
+GitRepositoriesView.GitDirectories.relative=E\:\\spring-projects\\smartcontacts\\.git;E\:\\sping-projects\\smartcontacts\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
