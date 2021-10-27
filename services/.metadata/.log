@@ -2275,3 +2275,39 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/user/src/main
 
 !ENTRY org.eclipse.ui 2 2 2021-10-27 18:13:24.009
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-27 18:26:44.907
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-27 18:26:44.916
+!MESSAGE classpath=143 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-27 18:26:44.924
+!MESSAGE buffering callback sts4.classpath.qsDtJjlt user false 143
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-27 18:26:44.925
+!MESSAGE executing callback sts4.classpath.qsDtJjlt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-27 18:26:44.960
+!MESSAGE executing callback sts4.classpath.qsDtJjlt SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2021-10-27 18:32:46.463
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-10-27 18:32:46.463
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7006b473,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66b73cb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
